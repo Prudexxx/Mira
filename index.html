@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>МИРА</title>
+
+    
+</head>
+<body>
+  
+    <div class="box">
+    <a class="strelka" href="https://prudexxx.github.io/NA/">&#8592</a>
+        <div><img class="logo" src="Логотип.jpg" alt=""></div>
+        <h1>
+            <span>М</span>
+            <span>и</span>
+            <span>р</span>
+            <span>а</span>
+            <!-- <span>р</span>
+            <span>а</span>
+            <span>ш</span>
+            <span>к</span>
+            <span>а</span> -->
+          </h1>
+          <h1 class="gradient-text">Первое собрание и отрытие было на улице 9 Мая 28'б' <br> 2012 года. </h1>
+          <button class="переключатель-кнопка" id="кнопка-переключения">Доступные вакантные служения</button>
+
+  <div class="скрываемый-текст" id="текст-для-переключения">
+  
+    
+      <h1>Доступные служения</h1>
+  
+    <div class="расписание-машин">
+      <!-- Первая строка (горизонтальные заголовки - дни недели) -->
+      <div class="ячейка заголовок вертикальный-заголовок">Служения/ Дни</div>
+      <div class="ячейка заголовок">Пн</div>
+      <div class="ячейка заголовок">Вт</div>
+      <div class="ячейка заголовок">Ср</div>
+      <div class="ячейка заголовок">Чт</div>
+      <div class="ячейка заголовок">Пт</div>
+      <div class="ячейка заголовок">Сб</div>
+      <div class="ячейка заголовок">Вс</div>
+  
+      <!-- Строки для каждой машины -->
+      <!-- Машина 1 -->
+      <div class="ячейка заголовок вертикальный-заголовок">Ведущий</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных">с</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+  
+      <!-- Машина 2 -->
+      <div class="ячейка заголовок вертикальный-заголовок">Чайханщик</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных">с</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+  
+      <!-- Машина 3 -->
+      <div class="ячейка заголовок вертикальный-заголовок">Уборщик</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных">с</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+  
+      <!-- Машина 4 -->
+      <div class="ячейка заголовок вертикальный-заголовок">Литком</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных">с</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных">с</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+  
+      <!-- Машина 5 -->
+      <div class="ячейка заголовок вертикальный-заголовок">Закупщик</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных">с</div>
+  
+      <!-- Машина 6 -->
+      <div class="ячейка заголовок вертикальный-заголовок">Пго</div>
+      <div class="ячейка ячейка-данных">с</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+  
+      <!-- Машина 7 -->
+      <div class="ячейка заголовок вертикальный-заголовок">Координатор</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных">с</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных">с</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+  
+      <!-- Машина 8 -->
+      <div class="ячейка заголовок вертикальный-заголовок">Казначей</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных">с</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+  
+      <!-- Машина 9 -->
+      <div class="ячейка заголовок вертикальный-заголовок">Водовоз</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных">с</div>
+      <div class="ячейка ячейка-данных"></div>
+  
+      <!-- Машина 10 -->
+      <div class="ячейка заголовок вертикальный-заголовок">ПСО</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных">с</div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+      <div class="ячейка ячейка-данных"></div>
+  
+    </div>
+  
+  </div>
+
+          <!-- <h1>Ближайшие события</h1>
+          <div class="slider">
+            <img class="slide" src="Изображение WhatsApp 2025-04-28 в 13.37.32_10224403.jpg" alt="Слайд 1">
+            <img class="slide" src="Изображение WhatsApp 2025-04-28 в 13.38.30_2aad7a1a.jpg" alt="Слайд 2" style="display: none;">
+            <img class="slide" src="Изображение WhatsApp 2025-04-29 в 09.27.01_1b5ddb8c.jpg" alt="Слайд 3" style="display: none;">
+            <img class="slide" src="Изображение WhatsApp 2025-05-03 в 19.50.05_4bda2605.jpg" alt="Слайд 4" style="display: none;">
+            <img class="slide" src="Изображение WhatsApp 2025-05-03 в 19.50.08_9f5e82ee.jpg" alt="Слайд 5" style="display: none;">
+            <button id="prev" class="nav-button">❮</button>
+            <button id="next" class="nav-button">❯</button>
+        </div> -->
+        
+    
+          <video class="video" muted  src="video_2025-05-03_02-16-32.mp4" autoplay loop="loop"></video></video>
+          <br><br><br>
+          <label for="mySelect">Собрания проходят:</label>
+          <select id="mySelect" name="mySelect">
+            <option value="option1">Понедельник с 19:00 до 20:15</option>
+            <option value="option1">Вторник с 19:00 до 20:15</option>
+            <option value="option1">Среда с 19:00 до 20:15</option>
+            <option value="option1">Четверг с 19:00 до 20:15</option>
+            <option value="option1">Пятница с 19:00 до 20:15</option>
+            <option value="option1">Суббота с 16:00 до 17:15</option>
+            <option value="option1"> Воскресенье  с 14:00 до 15:15</option>
+            <option value="option1">Вторник утро c 10:00 до 11:15 </option>
+            <option value="option1">Среда утро c 10:00 до 11:15  </option>
+            <option value="option1">Пятница утро c 10:00 до 11:15 </option>
+           
+
+            <select>
+            
+    </div>
+  
+    <div class="box1">
+      <h2>Отправить анонимный вопрос на собрание Мира</h2><br>
+    <form id="telegramForm">
+      <label for="message">Сообщение:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+      <button type="submit">Отправить</button>
+    </form>
+
+  
+
+    
+
+    
+  <script>
+    // Получаем элементы по их ID
+    const кнопкаПереключения = document.getElementById('кнопка-переключения');
+    const текстДляПереключения = document.getElementById('текст-для-переключения');
+
+    // Добавляем слушатель события клика на кнопку
+    кнопкаПереключения.addEventListener('click', function() {
+      // Переключаем класс "показан" на элементе текста
+      текстДляПереключения.classList.toggle('показан');
+
+      // Изменяем текст кнопки в зависимости от состояния текста
+      if (текстДляПереключения.classList.contains('показан')) {
+        кнопкаПереключения.textContent = 'Скрыть вакантные служения';
+      } else {
+        кнопкаПереключения.textContent = 'Вакантные служения';
+      }
+    });
+  </script>
+    <script>
+      // Телеграмм отправка==========================================================
+      const TELEGRAM_TOKEN   = '7831903358:AAHIkRNmstPV5QYoRC5GYqGiuGppTlLiotk'; // вставьте сюда токен бота
+      const CHAT_ID = '-1002657190873'; // вставьте сюда ваш chat_id     
+    
+      document.getElementById('telegramForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+    
+        const message = document.getElementById('message').value.trim();
+    
+        if (!message) {
+          alert('Пожалуйста, введите сообщение.');
+          return;
+        }
+    
+        const url = `https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`;
+    
+        axios.post(url, {
+          chat_id: CHAT_ID,
+          text: message
+        })
+        .then(function(response) {
+          alert('Сообщение успешно отправлено!');
+          document.getElementById('telegramForm').reset();
+        })
+        .catch(function(error) {
+          alert('Ошибка при отправке сообщения. Проверьте правильность данных и наличие доступа.');
+          console.error(error);
+        });
+      });
+    </script>
+    <script>
+    // =Слйдер ==========================================
+    let currentIndex = 0;
+      const slides = document.querySelectorAll('.slide');
+      
+      function showSlide(index) {
+          slides.forEach((slide, i) => {
+              slide.style.display = (i === index) ? 'block' : 'none';
+          });
+      }
+      
+      document.getElementById('prev').addEventListener('click', function() {
+          currentIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
+          showSlide(currentIndex);
+      });
+      
+      document.getElementById('next').addEventListener('click', function() {
+          currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
+          showSlide(currentIndex);
+      });
+      
+      // Инициализировать первый слайд
+      showSlide(currentIndex);</script>
+    </div>
+
+    
+    
+  
+    <!-- Подключение Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    
+   
+</body>
+
+</html>
+
